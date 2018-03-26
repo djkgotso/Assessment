@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Response :Response{protocol=http/1.1, code=200, message=OK, url=http://www.omdbapi.com/?i=tt3896198&apikey=d1730fe7}]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11655" started-at="2018-03-26T07:57:05Z" finished-at="2018-03-26T07:57:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11655" started-at="2018-03-26T07:57:05Z" finished-at="2018-03-26T07:57:16Z">
+      <class name="api_test.SearchByValidTitle">
+        <test-method status="PASS" signature="TestAPI()[pri:0, instance:api_test.SearchByValidTitle@39c0f4a]" name="TestAPI" is-config="true" duration-ms="8" started-at="2018-03-26T09:57:05Z" finished-at="2018-03-26T09:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAPI -->
+        <test-method status="PASS" signature="Search_API_Test(java.lang.String, java.lang.String)[pri:1, instance:api_test.SearchByValidTitle@39c0f4a]" name="Search_API_Test" duration-ms="11006" started-at="2018-03-26T09:57:05Z" data-provider="API_Test" finished-at="2018-03-26T09:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt3896198]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d1730fe7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Response :Response{protocol=http/1.1, code=200, message=OK, url=http://www.omdbapi.com/?i=tt3896198&apikey=d1730fe7}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_API_Test -->
+      </class> <!-- api_test.SearchByValidTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

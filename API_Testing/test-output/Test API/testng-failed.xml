@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test API]">
+  <parameter name="ExcelLocation" value="QA"/>
+  <test name="API Test(failed)">
+    <classes>
+      <class name="api_test.SearchByValidTitle">
+        <methods>
+          <include name="Search_API_Test"/>
+        </methods>
+      </class> <!-- api_test.SearchByValidTitle -->
+    </classes>
+  </test> <!-- API Test(failed) -->
+</suite> <!-- Failed suite [Test API] -->
