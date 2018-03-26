@@ -17,7 +17,17 @@
 
 
 
+# Test Cases
 
+# Scenarios
+
+TEST SCENARIOS
+TC01_Validate the search by valid Movie Title
+TC02_Validate the search by valid id
+TC03_Verify the view/search movie using valid ID and valid apikey
+TC04_Verify the view/search movie using invalid ID and valid apikey
+TC05_Verify the view/search movie using valid ID and invalid apikey
+TC06_Verify the view/search movie using invalid ID and invalid apikey
 
 
 
