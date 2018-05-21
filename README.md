@@ -27,6 +27,31 @@
  - TC04_Verify the view/search movie using invalid ID and valid apikey
  - TC05_Verify the view/search movie using valid ID and invalid apikey
  - TC06_Verify the view/search movie using invalid ID and invalid apikey
+ 
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM Test Suite QA" >
+
+<parameter name="run-id-param" value="162" />
+<parameter name="save-screenshots" value="true" />
+<parameter name="ExcelLocation" value="QA" />
+<parameter name="databaseURL" value= "jdbc:mysql://10.0.0.80:3306/HelloFin"/>
+<parameter name="user" value= "mark.r" /> 
+<parameter name="password" value= "Dravenm1903!" /> 
+<parameter name="posttotestRail" value= "No" /> 
+
+
+<listeners>
+    <listener class-name="Utility.ReportListener" />
+</listeners>
+
+
+<test name="Forgot Password">
+    <classes>
+      	<class name="CRM_Test_Cases.ForgotPassword"/>
+    </classes>
+</test> <!-- Test -->
 
 
 
